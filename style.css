@@ -1,0 +1,92 @@
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/opne_sans/static/OpenSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.parent_div {
+    display: flex;
+}
+
+.left_div {
+   width: 469px;
+   height: 832px;
+}
+
+.right_div {
+    width: 340px;
+    height: 372px;
+    margin-left: 340px;
+    margin-top: 230px;
+}
+
+h4 {
+    font-family: open_sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    margin: 0;
+}
+
+.paragraph {
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B7280;
+    margin: 0;
+}
+
+.div3 {
+    width: 281px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #4285F4;
+    display: flex;
+}
+
+.parent_div2{
+    display: inline-block;
+    margin-top: 36px;
+    
+}
+
+.gmail_img {
+    width: 43px;
+    height: 43px;
+    border-radius: 2px, 0px, 0px, 2px;
+    padding-left: 2px;
+    padding-top: 2.5px;
+}
+
+.gmail_p {
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-top: 11px;
+    margin: 0;
+}
+
+.fb_icon {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    border-radius: 2px, 0px, 0px, 2px;
+}
+.line{
+    color: #E5E7EB;
+    width: 340px;
+
+}
+
